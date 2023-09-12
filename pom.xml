@@ -56,6 +56,23 @@
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
         </properties>
+	
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>onlinebookstore Releases Nexus Repository</name>
+	      <url>http://18.61.35.244:8081/repository/onlinebookstore-release-repo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>onlinebookstore Snapshot Nexus Repository</name>
+	      <url>http://18.61.35.244:8081/repository/onlinebookstore-snapshot-repo/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 	<dependencies>
 
 		<dependency>
