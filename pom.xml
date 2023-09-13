@@ -52,7 +52,7 @@
 	</build>
 	<properties>
 		
-		<sonar.host.url>http://18.60.119.14:9000/</sonar.host.url>
+		<sonar.host.url>http://18.61.75.190:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
         </properties>
@@ -62,13 +62,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>onlinebookstore Releases Nexus Repository</name>
-	      <url>http://18.61.35.244:8081/repository/onlinebookstore-release-repo/</url>
+	      <url>http://18.60.117.244:8081/repository/onlinebookstore-release-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>onlinebookstore Snapshot Nexus Repository</name>
-	      <url>http://18.61.35.244:8081/repository/onlinebookstore-snapshot-repo/</url>
+	      <url>http://18.60.117.244:8081/repository/onlinebookstore-snapshot-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
