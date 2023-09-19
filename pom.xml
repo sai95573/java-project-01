@@ -54,7 +54,7 @@
 		
 		<sonar.host.url>http://54.236.24.129:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password> 
+		<sonar.password>admin123</sonar.password> 
         </properties>
 	
 	<distributionManagement>
